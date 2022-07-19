@@ -3062,7 +3062,7 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 𖥂 ${prefix}.setexif
 𖥂 ${prefix}.setmenu _option_
 𖥂 ${prefix}.anticall _on/off_
-└───────⭓
+└───────⭓`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'script bot',
