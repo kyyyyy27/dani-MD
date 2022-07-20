@@ -2801,7 +2801,7 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 𖥂 ${prefix}.vote [_text_]
 𖥂 ${prefix}.devote
 𖥂 ${prefix}.upvote
-𖥂 ${prefix.}cekvote
+𖥂 ${prefix}.cekvote
 𖥂 ${prefix}.hapusvote
 └───────⭓
 
