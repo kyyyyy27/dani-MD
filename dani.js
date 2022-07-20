@@ -504,7 +504,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             case 'delttc': case 'delttt': {
             let roomnya = Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))
             if (!roomnya) throw `Kamu sedang tidak berada di room tictactoe !`
-            delete this.gam Bu gure[roomnya.id]
+            delete this.game[roomnya.id]
             m.reply(`Berhasil delete session room tictactoe !`)
             }
             break
