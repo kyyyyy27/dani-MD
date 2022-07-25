@@ -2770,13 +2770,13 @@ let capt = `⭔ Title: ${judul}
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
-> Name : *DaniBotz_Offc*
-> Nomor : *https://wa.me/6281251549899*
+> Name : *Yakuzaa Bot*
+> Nomor : *https://wa.me/6283830815715*
 > Umur : *17*
 > Region : *Indonesia 🇲🇨*
 > Hobyy : *......*
-> Made in : *Kalimantan Selatan*
-> Nama Asli : *Danii... *
+> Made in : *Jawa timur*
+> Nama Asli : *... *
 └───────⭓
  *SILAHKAN LIHAT MENU BOT DIBWAH INI KA^^
  
@@ -3070,12 +3070,12 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://www.instagram.com/danibotz_official'
+                                    url: 'https://www.instagram.com/'
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'Group DaniBotz',
-                                    url: 'https://chat.whatsapp.com/KiKVjpgL4EH6i0kMUtlEjz'
+                                    displayText: 'Saweria',
+                                    url: 'https://saweria.co/Yakuzaa277'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3084,12 +3084,12 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact DaniBotzr',
+                                    displayText: 'Contact Yakuzaa',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi lh Bg:)',
+                                    displayText: 'Yakuzaa',
                                     id: 'donasi'
                                 }
                             }]
