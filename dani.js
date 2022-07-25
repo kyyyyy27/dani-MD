@@ -2780,48 +2780,26 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 └───────⭓
  *SILAHKAN LIHAT MENU BOT DIBWAH INI KA^^
  
-┌──⭓⌜*Group Menu*⌟
+┌──⭓⌜*Fitur Bot*⌟
 
-❍ ${prefix}.linkgroup
-❍ ${prefix}.setppgc 
-❍ ${prefix}.setname 
-❍ ${prefix}.setdesc 
-❍ ${prefix}.group 
-❍ ${prefix}.editinfo
-❍ ${prefix}.add
-❍ ${prefix}.kick
-❍ ${prefix}.hidetag 
-❍ ${prefix}.tagall 
-❍ ${prefix}.totag 
-❍ ${prefix}.antilink 
-❍ ${prefix}.mute 
-❍ ${prefix}.promote 
-❍ ${prefix}.demote 
+❍ ${prefix}linkgroup
+❍ ${prefix}setppgc 
+❍ ${prefix}setname 
+❍ ${prefix}setdesc 
+❍ ${prefix}group 
+❍ ${prefix}editinfo
+❍ ${prefix}add
+❍ ${prefix}kick
+❍ ${prefix}hidetag 
+❍ ${prefix}tagall 
+❍ ${prefix}totag 
+❍ ${prefix}antilink 
+❍ ${prefix}mute 
+❍ ${prefix}promote 
+❍ ${prefix}demote
+❍ ${prefix}owner
+❍ ${prefix}sewabot
 └───────⭓
-
-┌──⭓⌜*Main Menu*⌟
-❍ ${prefix}.ping:
-❍ ${prefix}.owner
-❍ ${prefix}.menu / .help / .?
-❍ ${prefix}.delete
-❍ ${prefix}.listpc
-❍ ${prefix}.listgc
-❍ ${prefix}.listonline
-└───────⭓
-
-┌──⭓⌜*Owner Menu*⌟
-❍ ${prefix}.react 
-❍ ${prefix}.chat 
-❍ ${prefix}.join 
-❍ ${prefix}.leave
-❍ ${prefix}.block 
-❍ ${prefix}.unblock
-❍ ${prefix}.bcgroup 
-❍ ${prefix}.bcall 
-❍ ${prefix}.setppbot 
-❍ ${prefix}.setexif
-❍ ${prefix}.setmenu 
-❍ ${prefix}.anticall 
 
 BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE 
 
@@ -2924,6 +2902,10 @@ BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE
 		if (isCmd && budy.toLowerCase() != undefined) {
 		    if (m.chat.endsWith('broadcast')) return
 		    if (m.isBaileys) return
+(util.format(err))
+    }
+}
+
 		    let msgs = global.db.data.database
 		    if (!(budy.toLowerCase() in msgs)) return
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
@@ -2932,11 +2914,7 @@ BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE
         
 
     } catch (err) {
-        m.reply(util.format(err))
-    }
-}
-
-
+        m.reply
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
