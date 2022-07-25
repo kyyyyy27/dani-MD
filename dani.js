@@ -537,11 +537,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b33b2f04360c1b3c732c9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281251549899 (Owner)\n\nDonate For Me : \n\n⭔ Gopay : 081352848936\n⭔ Dana : 081251549899` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url:  'https://telegra.ph/file/76efbe5bf40a1e2d4c893.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 5k Permanen\n⭔ 10k via pulsa permanen\n\n Premium Price Bot\n⭔ 8k Permanen ini dua grup atau Selebihnya\n\nPakek Dana Aja bg 5k doang🗿\n\nMau Tau lebih Lengkap? Hubungi Owner\nhttps://wa.me/6283830815715 (Owner)\n\nDonasi : \n\n⭔ Pulsa : 083830815715\n⭔ Dana : 085784914140` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('Script : NYARI SC? RECODE SENDIRI BG:V\n\n JANGAN LUPA DONASI BG\n\nDonate : 6281352848936 (Gopay)\nOVO : 081352848936\nDana : 081251549899\n\n Dont Forget Donate')
+                m.reply('Script : NYARI SC? RECODE SENDIRI BG:V\n\n JANGAN LUPA DONASI BG\n\nDonate : 083830815715 (Pulsa)\nDana : 085784914140\nDana : 085784914140\n\n Dont Forget Donate')
             }
             break
             case 'chat': {
@@ -3089,7 +3089,7 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Yakuzaa',
+                                    displayText: 'Sewabot/Donasi',
                                     id: 'donasi'
                                 }
                             }]
