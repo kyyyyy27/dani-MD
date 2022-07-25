@@ -2822,7 +2822,8 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 ❍ ${prefix}.setexif
 ❍ ${prefix}.setmenu 
 ❍ ${prefix}.anticall 
-└───────⭓`
+
+BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE ⭓`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
