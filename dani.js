@@ -2782,290 +2782,55 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
  
 ┌──⭓⌜*Group Menu*⌟
 
-𖥂 ${prefix}.linkgroup
-𖥂 ${prefix}.ephemeral [_option_]
-𖥂 ${prefix}.setppgc [_image_]
-𖥂 ${prefix}.setname [_text_]
-𖥂 ${prefix}.setdesc [_text_]
-𖥂 ${prefix}.group [_option_]
-𖥂 ${prefix}.editinfo [_option_]
-𖥂 ${prefix}.add [_@user_]
-𖥂 ${prefix}.kick [_@user_]
-𖥂 ${prefix}.hidetag [_text_]
-𖥂 ${prefix}.tagall [_tex_]
-𖥂 ${prefix}.totag [_text_]
-𖥂 ${prefix}.antilink [_on/off_]
-𖥂 ${prefix}.mute [_on/off_]
-𖥂 ${prefix}.promote [_@user_]
-𖥂 ${prefix}.demote [_@user_]
-𖥂 ${prefix}.vote [_text_]
-𖥂 ${prefix}.devote
-𖥂 ${prefix}.upvote
-𖥂 ${prefix}.cekvote
-𖥂 ${prefix}.hapusvote
-└───────⭓
-
-┌──⭓⌜*Webzone Menu*⌟
-
-𖥂 ${prefix}.playstore
-𖥂 ${prefix}.gsmarena
-𖥂 ${prefix}.jadwalbioskop
-𖥂 ${prefix}.nowplayingbioskop
-𖥂 ${prefix}.aminio
-𖥂 ${prefix}.watppad
-𖥂 ${prefix}.wetoons
-𖥂 ${prefix}.drakor
-└───────⭓
-
-┌──⭓⌜*Downloader Menu*⌟
-
-𖥂 ${prefix}.tiktoknowm [_send link tt_]
-𖥂 ${prefix}.tiktokwm [_send link tt_]
-𖥂 ${prefix}.tiktokmp3 [_send link tt_]
-𖥂 ${prefix}.instagram [_send link ig_]
-𖥂 ${prefix}.twitter [_send link twitter_]
-𖥂 ${prefix}.twittermp3 [_send link twitter_]
-𖥂 ${prefix}.facebook [_sens link fb_]
-𖥂 ${prefix}.pinterestdl [_send link pinterestdl_]
-𖥂 ${prefix}.ytmp3 [_send link yt_]
-𖥂 ${prefix}.ytmp4 [_send link yr_]
-𖥂 ${prefix}.getmusic [_query_]
-𖥂 ${prefix}.getvideo [_query_]
-𖥂 ${prefix}.umma [_send link ny_]
-𖥂 ${prefix}.joox [_query_]
-𖥂 ${prefix}.soundcloud [_send link ny_]
-└───────⭓
-
-┌──⭓⌜*Search Menu*⌟
-𖥂 ${prefix}.play [_query_]
-𖥂 ${prefix}.yts [_query_]
-𖥂 ${prefix}.geoogle [_query_]
-𖥂 ${prefix}.gimage [_query]
-𖥂 ${prefix}.pinterest [_query_]
-𖥂 ${prefix}.wallpaper [_query_]
-𖥂 ${prefix}.wikimedia [_query_]
-𖥂 ${prefix}.ytsearch [_query_]
-𖥂 ${prefix}.ringtone [_query_]
-𖥂 ${prefix}.stalk [_query_]
-└───────⭓
-
-┌──⭓⌜*Random Menu*⌟
-𖥂 ${prefix}.coffe
-𖥂 ${prefix}.quotesanime
-𖥂 ${prefix}.motivasi
-𖥂 ${prefix}.dilanquote
-𖥂 ${prefix}.bucinquote
-𖥂 ${prefix}.katasenja
-𖥂 ${prefix}.puisi
-𖥂 ${prefix}.couple
-𖥂 ${prefix}.anime
-𖥂 ${prefix}.waifu
-𖥂 ${prefix}.husbu
-𖥂 ${prefix}.neko
-𖥂 ${prefix}.shinobu
-𖥂 ${prefix}.waifus [_nsfw_]
-𖥂 ${prefix}.nekos _nsfw_
-𖥂 ${prefix}.trap [_nsfw_]
-𖥂 ${prefix}.blowjob [_nsfw_]
-└───────⭓
-
-┌──⭓⌜*TextPro Menu*⌟
-𖥂 ${prefix}.3dchristmas
-𖥂 ${prefix}.3ddeepsea
-𖥂 ${prefix}.americanflag
-𖥂 ${prefix}.3dscifi
-𖥂 ${prefix}.3drainbow
-𖥂 ${prefix}.3dwaterpipe
-𖥂 ${prefix}.halloweenskeleton
-𖥂 ${prefix}.sketch
-𖥂 ${prefix}.bluecircuit
-𖥂 ${prefix}.space
-𖥂 ${prefix}.metallic
-𖥂 ${prefix}.fiction
-𖥂 ${prefix}.greenhorror
-𖥂 ${prefix}.transformer
-𖥂 ${prefix}.berry
-𖥂 ${prefix}.thunder
-𖥂 ${prefix}.magma
-𖥂 ${prefix}.3dcrackedstone
-𖥂 ${prefix}.3dneonlight
-𖥂 ${prefix}.impressiveglitch
-𖥂 ${prefix}.naturalleaves
-𖥂 ${prefix}.fireworksparkle
-𖥂 ${prefix}.matrix
-𖥂 ${prefix}.dropwater
-𖥂 ${prefix}.harrypotter
-𖥂 ${prefix}.foggywindow
-𖥂 ${prefix}.neondevils
-𖥂 ${prefix}.christmasholiday
-𖥂 ${prefix}.3dgradient
-𖥂 ${prefix}.blackpink
-𖥂 ${prefix}.gluetext
-└───────⭓
-
-┌──⭓⌜*PhotoOxy Menu*⌟
-𖥂 ${prefix}.shadow
-𖥂 ${prefix}.romantic
-𖥂 ${prefix}.smoke
-𖥂 ${prefix}.burnpapper
-𖥂 ${prefix}.naruto
-𖥂 ${prefix}.lovemsg
-𖥂 ${prefix}.grassmsg
-𖥂 ${prefix}.lovetext
-𖥂 ${prefix}.coffecup
-𖥂 ${prefix}.butterfly
-𖥂 ${prefix}.harrypotter
-𖥂 ${prefix}.retrolol
-└───────⭓
-
-┌──⭓⌜*Ephoto Menu*⌟
-𖥂 ${prefix}.ffcover
-𖥂 ${prefix}.crossfire
-𖥂 ${prefix}.galaxy
-𖥂 ${prefix}.glass
-𖥂 ${prefix}.neon
-𖥂 ${prefix}.beach
-𖥂 ${prefix}.blackpink
-𖥂 ${prefix}.igcertificate
-𖥂 ${prefix}.ytcertificate
-└───────⭓
-
-┌──⭓⌜*Fun Menu*⌟
-𖥂 ${prefix}.simih
-𖥂 ${prefix}.halah
-𖥂 ${prefix}.hilih
-𖥂 ${prefix}.huluh
-𖥂 ${prefix}.heleh
-𖥂 ${prefix}.holoh
-𖥂 ${prefix}.jadian
-𖥂 ${prefix}.jodohku
-𖥂 ${prefix}.deltt
-𖥂 ${prefix}.tictactoe
-𖥂 ${prefix}.family100
-𖥂 ${prefix}.tebak [_option_]
-𖥂 ${prefix}.math [_mode_]
-𖥂 ${prefix}.suitpvp [_@tag_]
-└───────⭓
-
-┌──⭓⌜*Primbon Menu*⌟
-𖥂 ${prefix}.nomorhoki
-𖥂 ${prefix}.artimimpi
-𖥂 ${prefix}.artinama
-𖥂 ${prefix}.ramaljodoh
-𖥂 ${prefix}.ramaljodohbali
-𖥂 ${prefix}.suamiistri
-𖥂 ${prefix}.ramalcinta
-𖥂 ${prefix}.cocoknama
-𖥂 ${prefix}.pasangan
-𖥂 ${prefix}.jadiannikah
-𖥂 ${prefix}.sifatusaha
-𖥂 ${prefix}.rezeki
-𖥂 ${prefix}.pekerjaan
-𖥂 ${prefix}.nasib
-𖥂 ${prefix}.penyakit
-𖥂 ${prefix}.tarot
-𖥂 ${prefix}.fengshui
-𖥂 ${prefix}.haribaik
-𖥂 ${prefix}.harisangar
-𖥂 ${prefix}.harisial
-𖥂 ${prefix}.nagahari
-𖥂 ${prefix}.arahrezeki
-𖥂 ${prefix}.peruntungan
-𖥂 ${prefix}.weton
-𖥂 ${prefix}.karakter
-𖥂 ${prefix}.keberuntungan
-𖥂 ${prefix}.memancing
-𖥂 ${prefix}.masasubur
-𖥂 ${prefix}.zodiak
-𖥂 ${prefix}.shio
-└───────⭓
-
-┌──⭓⌜*Convert Menu*⌟ 
-𖥂 ${prefix}.attp [_text_]
-𖥂 ${prefix}.ttp [_text_]
-𖥂 ${prefix}.toimage [_reply sticker_]
-𖥂 ${prefix}.removebg
-𖥂 ${prefix}.sticker
-𖥂 ${prefix}.stickerwm
-𖥂 ${prefix}.emojimix
-𖥂 ${prefix}.emojimix2
-𖥂 ${prefix}.tovideo
-𖥂 ${prefix}.togif
-𖥂 ${prefix}.tourl
-𖥂 ${prefix}.tovn
-𖥂 ${prefix}.tomp3
-𖥂 ${prefix}.toaudio
-𖥂 ${prefix}.ebinary
-𖥂 ${prefix}.dbinary
-𖥂 ${prefix}.styletext
-𖥂 ${prefix}.smeme
+❍ ${prefix}.linkgroup
+❍ ${prefix}.ephemeral [_option_]
+❍ ${prefix}.setppgc [_image_]
+❍ ${prefix}.setname [_text_]
+❍ ${prefix}.setdesc [_text_]
+❍ ${prefix}.group [_option_]
+❍ ${prefix}.editinfo [_option_]
+❍ ${prefix}.add [_@user_]
+❍ ${prefix}.kick [_@user_]
+❍ ${prefix}.hidetag [_text_]
+❍ ${prefix}.tagall [_tex_]
+❍ ${prefix}.totag [_text_]
+❍ ${prefix}.antilink [_on/off_]
+❍ ${prefix}.mute [_on/off_]
+❍ ${prefix}.promote [_@user_]
+❍ ${prefix}.demote [_@user_]
+❍ ${prefix}.vote [_text_]
+❍ ${prefix}.devote
+❍ ${prefix}.upvote
+❍ ${prefix}.cekvote
+❍ ${prefix}.hapusvote
 └───────⭓
 
 ┌──⭓⌜*Main Menu*⌟
-𖥂 ${prefix}.ping:
-𖥂 ${prefix}.owner
-𖥂 ${prefix}.menu / .help / .?
-𖥂 ${prefix}.delete
-𖥂 ${prefix}.infochat
-𖥂 ${prefix}.quoted
-𖥂 ${prefix}.listpc
-𖥂 ${prefix}.listgc
-𖥂 ${prefix}.listonline
-𖥂 ${prefix}.speedtest
-└───────⭓
-
-┌──⭓⌜*DataBase Menu*⌟
-𖥂 ${prefix}.setcmd
-𖥂 ${prefix}.listcmd
-𖥂 ${prefix}.delcmd
-𖥂 ${prefix}.lockcmd
-𖥂 ${prefix}.addmsg
-𖥂 ${prefix}.listmsg
-𖥂 ${prefix}.getmsg
-𖥂 ${prefix}.delmsg
-└───────⭓
-
-┌──⭓⌜*Anonymous Menu*⌟
-𖥂 ${prefix}.anonymous
-𖥂 ${prefix}.start
-𖥂 ${prefix}.next
-𖥂 ${prefix}.keluar
-└───────⭓
-
-┌──⭓⌜*Islamic Menu*⌟
-𖥂 ${prefix}.iqra
-𖥂 ${prefix}.hadist
-𖥂 ${prefix}.alquran
-𖥂 ${prefix}.tafsirsurah
-└───────⭓
-
-┌──⭓⌜*Voice Changer*⌟
-𖥂 ${prefix}.bass
-𖥂 ${prefix}.blown
-𖥂 ${prefix}.deep
-𖥂 ${prefix}.aerrape
-𖥂 ${prefix}fast
-𖥂 ${prefix}.fat
-𖥂 ${prefix}.nightcore
-𖥂 ${prefix}.reverce
-𖥂 ${prefix}.robot
-𖥂 ${prefix}.slow
-𖥂 ${prefix}.tupai
+❍ ${prefix}.ping:
+❍ ${prefix}.owner
+❍ ${prefix}.menu / .help / .?
+❍ ${prefix}.delete
+❍ ${prefix}.infochat
+❍ ${prefix}.quoted
+❍ ${prefix}.listpc
+❍ ${prefix}.listgc
+❍ ${prefix}.listonline
+❍ ${prefix}.speedtest
 └───────⭓
 
 ┌──⭓⌜*Owner Menu*⌟
-𖥂 ${prefix}.react [_emoji_]
-𖥂 ${prefix}.chat [_option_]
-𖥂 ${prefix}.join [_linkGc_]
-𖥂 ${prefix}.leave
-𖥂 ${prefix}.block [_@user_]
-𖥂 ${prefix}.unblock [_@user_]
-𖥂 ${prefix}.bcgroup [_text_]
-𖥂 ${prefix}.bcall [_text_]
-𖥂 ${prefix}.setppbot [_image_]
-𖥂 ${prefix}.setexif
-𖥂 ${prefix}.setmenu [_option_]
-𖥂 ${prefix}.anticall [_on/off_]
+❍ ${prefix}.react [_emoji_]
+❍ ${prefix}.chat [_option_]
+❍ ${prefix}.join [_linkGc_]
+❍ ${prefix}.leave
+❍ ${prefix}.block [_@user_]
+❍ ${prefix}.unblock [_@user_]
+❍ ${prefix}.bcgroup [_text_]
+❍ ${prefix}.bcall [_text_]
+❍ ${prefix}.setppbot [_image_]
+❍ ${prefix}.setexif
+❍ ${prefix}.setmenu [_option_]
+❍ ${prefix}.anticall [_on/off_]
 └───────⭓`
                 let btn = [{
                                 urlButton: {
