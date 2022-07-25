@@ -2780,34 +2780,33 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 └───────⭓
  *SILAHKAN LIHAT MENU BOT DIBWAH INI KA^^
  
-┌──⭓⌜*Fitur Bot*⌟
+┌──⭓⌜*Fitur Bot Yakuzaa*⌟
 
-❍ ${prefix}linkgroup
-❍ ${prefix}setppgc 
-❍ ${prefix}setname 
-❍ ${prefix}setdesc 
-❍ ${prefix}group 
-❍ ${prefix}editinfo
-❍ ${prefix}add
-❍ ${prefix}kick
-❍ ${prefix}hidetag 
-❍ ${prefix}tagall 
-❍ ${prefix}totag 
-❍ ${prefix}antilink 
-❍ ${prefix}mute 
-❍ ${prefix}promote 
-❍ ${prefix}demote
-❍ ${prefix}owner
-❍ ${prefix}sewabot
+❍ ${prefix}.linkgroup
+❍ ${prefix}.setppgc 
+❍ ${prefix}.setname 
+❍ ${prefix}.setdesc 
+❍ ${prefix}.group 
+❍ ${prefix}.editinfo
+❍ ${prefix}.add
+❍ ${prefix}.kick
+❍ ${prefix}.hidetag 
+❍ ${prefix}.tagall 
+❍ ${prefix}.totag 
+❍ ${prefix}.antilink 
+❍ ${prefix}.promote
+❍ ${prefix}.sewabot
+❍ ${prefix}.owner
 └───────⭓
+
 
 BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE 
 
 ⭓GRUP OFFICIAL BOT https://chat.whatsapp.com/GpokGJ5khGdIRRwuAD8DbY`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: 'https://www.instagram.com/'
+                                    displayText: 'GrupWa',
+                                    url: 'https://chat.whatsapp.com/GpokGJ5khGdIRRwuAD8DbY'
                                 }
                             }, {
                                 urlButton: {
@@ -2902,10 +2901,6 @@ BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE
 		if (isCmd && budy.toLowerCase() != undefined) {
 		    if (m.chat.endsWith('broadcast')) return
 		    if (m.isBaileys) return
-(util.format(err))
-    }
-}
-
 		    let msgs = global.db.data.database
 		    if (!(budy.toLowerCase() in msgs)) return
 		    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
@@ -2914,7 +2909,11 @@ BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE
         
 
     } catch (err) {
-        m.reply
+        m.reply(util.format(err))
+    }
+}
+
+
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
