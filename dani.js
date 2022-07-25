@@ -2766,7 +2766,7 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `Hallo User DaniBotz *${pushname}*! 
+                anu = `Hallo User YakuzaaBot *${pushname}*! 
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
@@ -2783,26 +2783,20 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 ┌──⭓⌜*Group Menu*⌟
 
 ❍ ${prefix}.linkgroup
-❍ ${prefix}.ephemeral [_option_]
-❍ ${prefix}.setppgc [_image_]
-❍ ${prefix}.setname [_text_]
-❍ ${prefix}.setdesc [_text_]
-❍ ${prefix}.group [_option_]
-❍ ${prefix}.editinfo [_option_]
-❍ ${prefix}.add [_@user_]
-❍ ${prefix}.kick [_@user_]
-❍ ${prefix}.hidetag [_text_]
-❍ ${prefix}.tagall [_tex_]
-❍ ${prefix}.totag [_text_]
-❍ ${prefix}.antilink [_on/off_]
-❍ ${prefix}.mute [_on/off_]
-❍ ${prefix}.promote [_@user_]
-❍ ${prefix}.demote [_@user_]
-❍ ${prefix}.vote [_text_]
-❍ ${prefix}.devote
-❍ ${prefix}.upvote
-❍ ${prefix}.cekvote
-❍ ${prefix}.hapusvote
+❍ ${prefix}.setppgc 
+❍ ${prefix}.setname 
+❍ ${prefix}.setdesc 
+❍ ${prefix}.group 
+❍ ${prefix}.editinfo
+❍ ${prefix}.add
+❍ ${prefix}.kick
+❍ ${prefix}.hidetag 
+❍ ${prefix}.tagall 
+❍ ${prefix}.totag 
+❍ ${prefix}.antilink 
+❍ ${prefix}.mute 
+❍ ${prefix}.promote 
+❍ ${prefix}.demote 
 └───────⭓
 
 ┌──⭓⌜*Main Menu*⌟
@@ -2810,27 +2804,24 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 ❍ ${prefix}.owner
 ❍ ${prefix}.menu / .help / .?
 ❍ ${prefix}.delete
-❍ ${prefix}.infochat
-❍ ${prefix}.quoted
 ❍ ${prefix}.listpc
 ❍ ${prefix}.listgc
 ❍ ${prefix}.listonline
-❍ ${prefix}.speedtest
 └───────⭓
 
 ┌──⭓⌜*Owner Menu*⌟
-❍ ${prefix}.react [_emoji_]
-❍ ${prefix}.chat [_option_]
-❍ ${prefix}.join [_linkGc_]
+❍ ${prefix}.react 
+❍ ${prefix}.chat 
+❍ ${prefix}.join 
 ❍ ${prefix}.leave
-❍ ${prefix}.block [_@user_]
-❍ ${prefix}.unblock [_@user_]
-❍ ${prefix}.bcgroup [_text_]
-❍ ${prefix}.bcall [_text_]
-❍ ${prefix}.setppbot [_image_]
+❍ ${prefix}.block 
+❍ ${prefix}.unblock
+❍ ${prefix}.bcgroup 
+❍ ${prefix}.bcall 
+❍ ${prefix}.setppbot 
 ❍ ${prefix}.setexif
-❍ ${prefix}.setmenu [_option_]
-❍ ${prefix}.anticall [_on/off_]
+❍ ${prefix}.setmenu 
+❍ ${prefix}.anticall 
 └───────⭓`
                 let btn = [{
                                 urlButton: {
