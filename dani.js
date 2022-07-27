@@ -1185,13 +1185,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: 'https://www.instagram.com/danibotz_official'
+                                    displayText: 'LinkTree',
+                                    url: 'https://linktr.ee/yakuzaabot'
                                 }
                             }, {
-                                callButton: {
-                                    displayText: 'Nomer Telpon DaniBotz',
-                                    phoneNumber: '+62 812-5154-9899'
+                                urlButton: {
+                                    displayText: 'Saweria',
+                                    url: 'https://saweria.co/Yakuzaa277'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1200,12 +1200,12 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText:  'Contact Owner',
+                                    displayText: 'Contact Yakuzaa',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi lh Bg:)',
+                                    displayText: 'Sewabot/Donasi',
                                     id: 'donasi'
                                 }
                             }]
@@ -2799,14 +2799,13 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 ❍ ${prefix}.owner
 └───────⭓
 
+Sewabot 5K permanen Minat??
+Chat Wa.me/6283830815715
 
-BOT INI DI CIPTAKAN UNTUK MENJAGA GRUP DARI SHARELINK GC OKEE 
-
-⭓GRUP OFFICIAL BOT https://chat.whatsapp.com/GpokGJ5khGdIRRwuAD8DbY`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'GrupWa',
-                                    url: 'https://chat.whatsapp.com/GpokGJ5khGdIRRwuAD8DbY'
+                                    displayText: 'LinkTree',
+                                    url: 'https://linktr.ee/yakuzaabot'
                                 }
                             }, {
                                 urlButton: {
