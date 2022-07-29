@@ -2797,6 +2797,8 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 ❍ ${prefix}.promote
 ❍ ${prefix}.sewabot
 ❍ ${prefix}.owner
+❍ ${prefix}.sticker
+❍ ${prefix}.tiktok
 └───────⭓
 
 Sewabot 5K permanen Minat??
