@@ -537,11 +537,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url:  'https://telegra.ph/file/76efbe5bf40a1e2d4c893.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Yakuzaa\n⭔ 5k Permanen 2Grup\n⭔ 8k 5Grup\n\n \nPakek Dana Aja bg 5k doang🗿\n\nMau Tau lebih Lengkap? Hubungi Owner\nhttps://wa.me/6283830815715 (Owner)\n\nDonasi : \n\n⭔ Pulsa : 083830815715\n⭔ Dana : 085784914140` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/b33b2f04360c1b3c732c9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281251549899 (Owner)\n\nDonate For Me : \n\n⭔ Gopay : 081352848936\n⭔ Dana : 081251549899` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('Script : NYARI SC? RECODE SENDIRI BG:V\n\n JANGAN LUPA DONASI BG\n\nDonate : 083830815715 (Pulsa)\nDana : 085784914140\nDana : 085784914140\n\n Dont Forget Donate')
+                m.reply('Script : NYARI SC? RECODE SENDIRI BG:V\n\n JANGAN LUPA DONASI BG\n\nDonate : 6281352848936 (Gopay)\nOVO : 081352848936\nDana : 081251549899\n\n Dont Forget Donate')
             }
             break
             case 'chat': {
@@ -1185,13 +1185,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'LinkTree',
-                                    url: 'https://linktr.ee/yakuzaabot'
+                                    displayText: 'Instagram',
+                                    url: 'https://www.instagram.com/yakuzaa_271/'
                                 }
                             }, {
-                                urlButton: {
-                                    displayText: 'Saweria',
-                                    url: 'https://saweria.co/Yakuzaa277'
+                                callButton: {
+                                    displayText: 'Nomer Telpon DaniBotz',
+                                    phoneNumber: '+62 812-5154-9899'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1200,12 +1200,12 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Yakuzaa',
+                                    displayText:  'Contact Owner',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewabot/Donasi',
+                                    displayText: 'Donasi lh Bg:)',
                                     id: 'donasi'
                                 }
                             }]
@@ -1225,12 +1225,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://www.instagram.com/danibotz_official'
+                                    url: 'https://www.instagram.com/yakuzaa_271/'
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'Group DaniBotz',
-                                    url: 'https://chat.whatsapp.com/KiKVjpgL4EH6i0kMUtlEjz'
+                                    displayText: 'GGroup Yakuzaa',
+                                    url: 'https://chat.whatsapp.com/IMjOBNwprvzAvLMss3D7iU'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1239,7 +1239,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Danibotz',
+                                    displayText: 'NomerOwner',
                                     id: 'owner'
                                 }  
                             }, {
@@ -2761,7 +2761,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                hisoka.sendListMsg(m.chat, `Pilih aja *Bg* Setmenu nya!`, hisoka.user.name, `Hello Dani !`, `Pilih Bg`, sections, m)
+                hisoka.sendListMsg(m.chat, `Pilih aja *Bg* Setmenu nya!`, hisoka.user.name, `Hello  !`, `Pilih Bg`, sections, m)
                 }
             }
             break
@@ -2770,49 +2770,312 @@ let capt = `⭔ Title: ${judul}
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
-> Name : *Yakuzaa Bot*
+> Name : *kyy*
 > Nomor : *https://wa.me/6283830815715*
 > Umur : *17*
 > Region : *Indonesia 🇲🇨*
 > Hobyy : *......*
-> Made in : *Jawa timur*
-> Nama Asli : *... *
+> Made in : *Lumajang*
+> Nama Asli : *Zakyy... *
 └───────⭓
  *SILAHKAN LIHAT MENU BOT DIBWAH INI KA^^
  
-┌──⭓⌜*Fitur Bot Yakuzaa*⌟
+┌──⭓⌜*Group Menu*⌟
 
-❍ ${prefix}.linkgroup
-❍ ${prefix}.setppgc 
-❍ ${prefix}.setname 
-❍ ${prefix}.setdesc 
-❍ ${prefix}.group 
-❍ ${prefix}.editinfo
-❍ ${prefix}.add
-❍ ${prefix}.kick
-❍ ${prefix}.hidetag 
-❍ ${prefix}.tagall 
-❍ ${prefix}.totag 
-❍ ${prefix}.antilink 
-❍ ${prefix}.promote
-❍ ${prefix}.sewabot
-❍ ${prefix}.owner
-❍ ${prefix}.sticker
-❍ ${prefix}.tiktok
+│ ${prefix}.linkgroup
+│ ${prefix}.ephemeral [_option_]
+│ ${prefix}.setppgc [_image_]
+│ ${prefix}.setname [_text_]
+│ ${prefix}.setdesc [_text_]
+│ ${prefix}.group [_option_]
+│ ${prefix}.editinfo [_option_]
+│ ${prefix}.add [_@user_]
+│ ${prefix}.kick [_@user_]
+│ ${prefix}.hidetag [_text_]
+│ ${prefix}.tagall [_tex_]
+│ ${prefix}.totag [_text_]
+│ ${prefix}.antilink [_on/off_]
+│ ${prefix}.mute [_on/off_]
+│ ${prefix}.promote [_@user_]
+│ ${prefix}.demote [_@user_]
+│ ${prefix}.vote [_text_]
+│ ${prefix}.devote
+│ ${prefix}.upvote
+│ ${prefix}.cekvote
+│ ${prefix}.hapusvote
 └───────⭓
 
-Sewabot 5K permanen Minat??
-Chat Wa.me/6283830815715
+┌──⭓⌜*Webzone Menu*⌟
 
+│ ${prefix}.playstore
+│ ${prefix}.gsmarena
+│ ${prefix}.jadwalbioskop
+│ ${prefix}.nowplayingbioskop
+│ ${prefix}.aminio
+│ ${prefix}.watppad
+│ ${prefix}.wetoons
+│ ${prefix}.drakor
+└───────⭓
+
+┌──⭓⌜*Downloader Menu*⌟
+
+│ ${prefix}.tiktoknowm [_send link tt_]
+│ ${prefix}.tiktokwm [_send link tt_]
+│ ${prefix}.tiktokmp3 [_send link tt_]
+│ ${prefix}.instagram [_send link ig_]
+│ ${prefix}.twitter [_send link twitter_]
+│ ${prefix}.twittermp3 [_send link twitter_]
+│ ${prefix}.facebook [_sens link fb_]
+│ ${prefix}.pinterestdl [_send link pinterestdl_]
+│ ${prefix}.ytmp3 [_send link yt_]
+│ ${prefix}.ytmp4 [_send link yr_]
+│ ${prefix}.getmusic [_query_]
+│ ${prefix}.getvideo [_query_]
+│ ${prefix}.umma [_send link ny_]
+│ ${prefix}.joox [_query_]
+│ ${prefix}.soundcloud [_send link ny_]
+└───────⭓
+
+┌──⭓⌜*Search Menu*⌟
+│ ${prefix}.play [_query_]
+│ ${prefix}.yts [_query_]
+│ ${prefix}.geoogle [_query_]
+│ ${prefix}.gimage [_query]
+│ ${prefix}.pinterest [_query_]
+│ ${prefix}.wallpaper [_query_]
+│ ${prefix}.wikimedia [_query_]
+│ ${prefix}.ytsearch [_query_]
+│ ${prefix}.ringtone [_query_]
+│ ${prefix}.stalk [_query_]
+└───────⭓
+
+┌──⭓⌜*Random Menu*⌟
+│ ${prefix}.coffe
+│ ${prefix}.quotesanime
+│ ${prefix}.motivasi
+│ ${prefix}.dilanquote
+│ ${prefix}.bucinquote
+│ ${prefix}.katasenja
+│ ${prefix}.puisi
+│ ${prefix}.couple
+│ ${prefix}.anime
+│ ${prefix}.waifu
+│ ${prefix}.husbu
+│ ${prefix}.neko
+│ ${prefix}.shinobu
+│ ${prefix}.waifus [_nsfw_]
+│ ${prefix}.nekos _nsfw_
+│ ${prefix}.trap [_nsfw_]
+│ ${prefix}.blowjob [_nsfw_]
+└───────⭓
+
+┌──⭓⌜*TextPro Menu*⌟
+│ ${prefix}.3dchristmas
+│ ${prefix}.3ddeepsea
+│ ${prefix}.americanflag
+│ ${prefix}.3dscifi
+│ ${prefix}.3drainbow
+│ ${prefix}.3dwaterpipe
+│ ${prefix}.halloweenskeleton
+│ ${prefix}.sketch
+│ ${prefix}.bluecircuit
+│ ${prefix}.space
+│ ${prefix}.metallic
+│ ${prefix}.fiction
+│ ${prefix}.greenhorror
+│ ${prefix}.transformer
+│ ${prefix}.berry
+│ ${prefix}.thunder
+│ ${prefix}.magma
+│ ${prefix}.3dcrackedstone
+│ ${prefix}.3dneonlight
+│ ${prefix}.impressiveglitch
+│ ${prefix}.naturalleaves
+│ ${prefix}.fireworksparkle
+│ ${prefix}.matrix
+│ ${prefix}.dropwater
+│ ${prefix}.harrypotter
+│ ${prefix}.foggywindow
+│ ${prefix}.neondevils
+│ ${prefix}.christmasholiday
+│ ${prefix}.3dgradient
+│ ${prefix}.blackpink
+│ ${prefix}.gluetext
+└───────⭓
+
+┌──⭓⌜*PhotoOxy Menu*⌟
+│ ${prefix}.shadow
+│ ${prefix}.romantic
+│ ${prefix}.smoke
+│ ${prefix}.burnpapper
+│ ${prefix}.naruto
+│ ${prefix}.lovemsg
+│ ${prefix}.grassmsg
+│ ${prefix}.lovetext
+│ ${prefix}.coffecup
+│ ${prefix}.butterfly
+│ ${prefix}.harrypotter
+│ ${prefix}.retrolol
+└───────⭓
+
+┌──⭓⌜*Ephoto Menu*⌟
+│ ${prefix}.ffcover
+│ ${prefix}.crossfire
+│ ${prefix}.galaxy
+│ ${prefix}.glass
+│ ${prefix}.neon
+│ ${prefix}.beach
+│ ${prefix}.blackpink
+│ ${prefix}.igcertificate
+│ ${prefix}.ytcertificate
+└───────⭓
+
+┌──⭓⌜*Fun Menu*⌟
+│ ${prefix}.simih
+│ ${prefix}.halah
+│ ${prefix}.hilih
+│ ${prefix}.huluh
+│ ${prefix}.heleh
+│ ${prefix}.holoh
+│ ${prefix}.jadian
+│ ${prefix}.jodohku
+│ ${prefix}.deltt
+│ ${prefix}.tictactoe
+│ ${prefix}.family100
+│ ${prefix}.tebak [_option_]
+│ ${prefix}.math [_mode_]
+│ ${prefix}.suitpvp [_@tag_]
+└───────⭓
+
+┌──⭓⌜*Primbon Menu*⌟
+│ ${prefix}.nomorhoki
+│ ${prefix}.artimimpi
+│ ${prefix}.artinama
+│ ${prefix}.ramaljodoh
+│ ${prefix}.ramaljodohbali
+│ ${prefix}.suamiistri
+│ ${prefix}.ramalcinta
+│ ${prefix}.cocoknama
+│ ${prefix}.pasangan
+│ ${prefix}.jadiannikah
+│ ${prefix}.sifatusaha
+│ ${prefix}.rezeki
+│ ${prefix}.pekerjaan
+│ ${prefix}.nasib
+│ ${prefix}.penyakit
+│ ${prefix}.tarot
+│ ${prefix}.fengshui
+│ ${prefix}.haribaik
+│ ${prefix}.harisangar
+│ ${prefix}.harisial
+│ ${prefix}.nagahari
+│ ${prefix}.arahrezeki
+│ ${prefix}.peruntungan
+│ ${prefix}.weton
+│ ${prefix}.karakter
+│ ${prefix}.keberuntungan
+│ ${prefix}.memancing
+│ ${prefix}.masasubur
+│ ${prefix}.zodiak
+│ ${prefix}.shio
+└───────⭓
+
+┌──⭓⌜*Convert Menu*⌟ 
+│ ${prefix}.attp [_text_]
+│ ${prefix}.ttp [_text_]
+│ ${prefix}.toimage [_reply sticker_]
+│ ${prefix}.removebg
+│ ${prefix}.sticker
+│ ${prefix}.stickerwm
+│ ${prefix}.emojimix
+│ ${prefix}.emojimix2
+│ ${prefix}.tovideo
+│ ${prefix}.togif
+│ ${prefix}.tourl
+│ ${prefix}.tovn
+│ ${prefix}.tomp3
+│ ${prefix}.toaudio
+│ ${prefix}.ebinary
+│ ${prefix}.dbinary
+│ ${prefix}.styletext
+│ ${prefix}.smeme
+└───────⭓
+
+┌──⭓⌜*Main Menu*⌟
+│ ${prefix}.ping:
+│ ${prefix}.owner
+│ ${prefix}.menu / .help / .?
+│ ${prefix}.delete
+│ ${prefix}.infochat
+│ ${prefix}.quoted
+│ ${prefix}.listpc
+│ ${prefix}.listgc
+│ ${prefix}.listonline
+│ ${prefix}.speedtest
+└───────⭓
+
+┌──⭓⌜*DataBase Menu*⌟
+│ ${prefix}.setcmd
+│ ${prefix}.listcmd
+│ ${prefix}.delcmd
+│ ${prefix}.lockcmd
+│ ${prefix}.addmsg
+│ ${prefix}.listmsg
+│ ${prefix}.getmsg
+│ ${prefix}.delmsg
+└───────⭓
+
+┌──⭓⌜*Anonymous Menu*⌟
+│ ${prefix}.anonymous
+│ ${prefix}.start
+│ ${prefix}.next
+│ ${prefix}.keluar
+└───────⭓
+
+┌──⭓⌜*Islamic Menu*⌟
+│ ${prefix}.iqra
+│ ${prefix}.hadist
+│ ${prefix}.alquran
+│ ${prefix}.tafsirsurah
+└───────⭓
+
+┌──⭓⌜*Voice Changer*⌟
+│ ${prefix}.bass
+│ ${prefix}.blown
+│ ${prefix}.deep
+│ ${prefix}.aerrape
+│ ${prefix}fast
+│ ${prefix}.fat
+│ ${prefix}.nightcore
+│ ${prefix}.reverce
+│ ${prefix}.robot
+│ ${prefix}.slow
+│ ${prefix}.tupai
+└───────⭓
+
+┌──⭓⌜*Owner Menu*⌟
+│ ${prefix}.react [_emoji_]
+│ ${prefix}.chat [_option_]
+│ ${prefix}.join [_linkGc_]
+│ ${prefix}.leave
+│ ${prefix}.block [_@user_]
+│ ${prefix}.unblock [_@user_]
+│ ${prefix}.bcgroup [_text_]
+│ ${prefix}.bcall [_text_]
+│ ${prefix}.setppbot [_image_]
+│ ${prefix}.setexif
+│ ${prefix}.setmenu [_option_]
+│ ${prefix}.anticall [_on/off_]
+└───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'LinkTree',
-                                    url: 'https://linktr.ee/yakuzaabot'
+                                    displayText: 'Instagram',
+                                    url: 'https://www.instagram.com/yakuzaa_271/'
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'Saweria',
-                                    url: 'https://saweria.co/Yakuzaa277'
+                                    displayText: 'Group Yakuzaa',
+                                    url: 'https://chat.whatsapp.com/IMjOBNwprvzAvLMss3D7iU'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2821,12 +3084,12 @@ Chat Wa.me/6283830815715
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Yakuzaa',
+                                    displayText: 'NomerOwnerr',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewabot/Donasi',
+                                    displayText: 'Donasi lh Bg:)',
                                     id: 'donasi'
                                 }
                             }]
