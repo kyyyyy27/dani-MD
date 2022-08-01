@@ -3106,9 +3106,8 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
                         hisoka.send5ButLoc(m.chat, anu, hisoka.user.name, global.thumb, btn)
                         }
                      }
-            sendButImage(from, teks, trans, img, but, {quoted: ftok})
 sound = fs.readFileSync('src/menu.mp3')
-simple.sendMessage(from, sound, MessageType.audio, {quoted: ftrol, mimetype: 'audio/mp4', ptt:true})
+hisoka.sendMessage(from, sound, MessageType.audio, {quoted: ftrol, mimetype: 'audio/mp4', ptt:true})
             break
             default:
                 if (budy.startsWith('=>')) {
