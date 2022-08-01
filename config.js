@@ -42,7 +42,7 @@ global.limitawal = {
 }
 global.thumb = fs.readFileSync('./lib/Dani.jpg')
 global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
-
+global.vn = './src/menu.mp3'
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
